@@ -1,4 +1,3 @@
-// archivo: src/main/java/com/example/models/pedido.java
 package com.example.models;
 
 public class pedido {
@@ -38,7 +37,7 @@ public class pedido {
                 '}';
     }
 
-    // equals y hashCode para evitar duplicados en HashSet
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
